@@ -1,0 +1,6 @@
+This is example2, including example1:
+"
+### PyPP include('examples/example1.txt')
+"
+
+That was example 1, it gave us "PyPP_EXAMPLE1_VALUE".

@@ -1,0 +1,8 @@
+Hi world, I am PyPP_STATUS.
+Counter: PyPP_COUNTER
+Counter: PyPP_COUNTER
+Counter: PyPP_COUNTER
+### PyPP exec
+defines.resetcounter(defines)
+### PyPP end
+Counter: PyPP_COUNTER

@@ -63,7 +63,7 @@ will test as True (if defines.isactive: print('is true')). You should use -dxxx=
 ### -dxxx=yyy
 
 The argument "-dxxx=yyy" will define xxx as the integer yyy, instead of as a string. This is useful for testing boolean values 
-for doing arithmetic.
+and for doing arithmetic.
 
 ### -Ix,y,z
 

@@ -1,0 +1,6 @@
+Hi world, I am M4_STATUS.
+I am also PyPP_STATUS.
+Doubled, I'm PyPP_STATUS`'PyPP_STATUS.
+I am _not_ PyPP_NONAME.
+### PyPP # This line will be ignored. The next one sets a value going forward
+### PyPP defines.example1_value='We are %s.'%defines.status

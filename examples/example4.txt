@@ -1,0 +1,13 @@
+### PyPP divert
+This will not be included in the output. You can use divert for comments or
+to temporarily disable exec blocks.
+### PyPP end
+### PyPP exec
+# you can read values from the 'defines' variable
+# if you change values in 'defines', they will persist for future reference
+
+out('Our status is %s.\n'%defines.status)
+a=list(defines.status.upper())
+out('Our modified status is %s.\n'%'_'.join(a))
+
+### PyPP end

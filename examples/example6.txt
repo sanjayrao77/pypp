@@ -1,0 +1,25 @@
+#!/usr/bin/python3 -B
+
+import sys
+import pypp
+
+def mystatus(defines):
+	return 'embedded'
+
+def mycounter(defines):
+    defines._counter+=1
+    return defines._counter
+
+def myresetcounter(defines):
+    defines._counter=0
+    return 0
+
+o=pypp.Object()
+o.resetcounter=myresetcounter
+o.status=mystatus
+o._counter=0
+o.counter=mycounter
+p=pypp.PyPP(['<PyPP#'],['PyPP_'],['### PyPP'],10,o)
+p.add_includedir('examples')
+p.include('example6a.txt')
+p.export(sys.stdout)
