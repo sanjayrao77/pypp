@@ -23,7 +23,7 @@ malicious behavior, in the included code, importing is disabled and some built-i
 missing (e.g. open and exec).
 
 This sandboxing is probably **not** secure. I block the escape methods I'm aware of but there may be ways
-around the sandboxing. However, basic clean-to-read embeded code is likely to be safe.
+around the sandboxing. However, basic clean-to-read embedded code is likely to be safe.
 
 I do **not** attempt to detect infinite loops. If there's an infinite loop in included code then the processing
 will hang.
@@ -299,6 +299,6 @@ Counter: 1
 
 ### Adding functions
 
-For security, You can't __import__ in included python code. If you want to provide I/O or other functionality to
+For security, You can't __import__ within included python code. If you want to provide I/O or other functionality to
 included python code, that can be done by creating wrappers and then passing the functions to class PyPP. You
 can see example 6 above to see how this is done.
